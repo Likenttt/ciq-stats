@@ -10,7 +10,6 @@ from datetime import datetime
 app = Flask(__name__)
 
 cache = {}  # appid_domain info
-
 # ciq.newrathon.com/query?appid=b4337e65-9333-49e4-9e7b-27e4f68922a1&domain=all&mode=downloads
 
 
