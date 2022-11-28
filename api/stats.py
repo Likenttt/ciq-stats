@@ -10,13 +10,13 @@ from datetime import datetime
 app = Flask(__name__)
 
 cache = {}  # appid_domain info
-# ciq.li2niu.com/stats?appid=b4337e65-9333-49e4-9e7b-27e4f68922a1&domain=all
+# ciq.li2niu.com/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&domain=all
 
 
 @app.route('/')
 @app.route('/<path:path>')
 def home(path):
-    # b4337e65-9333-49e4-9e7b-27e4f68922a1 in https://apps.garmin.cn/zh-CN/apps/b4337e65-9333-49e4-9e7b-27e4f68922a1
+    # dc6ceca8-6ec6-49f2-b711-4ebc0d347177 in https://apps.garmin.cn/zh-CN/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177
     id = request.args.get('appid')
     domain = request.args.get('domain')  # all(default)/cn/com
 
