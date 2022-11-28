@@ -4,12 +4,33 @@ This is a Serverless Function for Garmin Connect IQ app downloads,reviews,rating
 
 ## Showcase
 
+### Center Aligned with Html
+
 <p align="center">
-    <a href="https://apps.garmin.com/en-US/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177">Garmin App JumpJump</a> <br>
-    <img src="https://img.shields.io/badge/dynamic/json?color=green&icon=garmin&label=Downloads&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
-    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=Rating&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
-    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Reviews&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    Some Apps I love(Hope you don't mind I use your apps as showcase without your permissions) <br>
+    <img src="https://img.shields.io/badge/dynamic/json?color=green&logo=garmin&label=Hike2%2B&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D116a5b59-29ae-4397-a70e-907d7e5f8e44%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Run%20Power&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Da054f515-576a-4a28-b8e5-87987ba737e1%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=GRun&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dbf56e088-aefe-4fb4-8f16-b2e136b996a9%26domain%3Dall"/>
 </p>
+
+<p align="center">
+    <a href="https://apps.garmin.com/en-US/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177">My First Garmin App JumpJump</a> <br>
+    <img src="https://img.shields.io/badge/dynamic/json?color=green&logo=garmin&label=Downloads&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Reviews&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=Rating&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+</p>
+
+### Markdown Syntax
+
+Garmin Logo is too small. You can remove it. Waiting for a Connect IQ logo.
+
+Also use JumpJump as an example.
+![JJ Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
+![JJ Downloads COM](https://img.shields.io/badge/dynamic/json?color=green&label=Row%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
+![JJ Downloads CN](https://img.shields.io/badge/dynamic/json?color=green&label=China%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
+![JJ Rating COM](https://img.shields.io/badge/dynamic/json?color=blue&label=Row%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
+![JJ Rating CN](https://img.shields.io/badge/dynamic/json?color=blue&label=China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
+![JJ Reviews](https://img.shields.io/badge/dynamic/json?color=orange&label=Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
 
 ## Make Your Own
 
