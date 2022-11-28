@@ -6,9 +6,9 @@ This is a Serverless Function for Garmin Connect IQ app downloads,reviews,rating
 
 <p align="center">
     <a href="https://apps.garmin.com/en-US/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177">Garmin App JumpJump</a> <br>
-    <img src="https://img.shields.io/badge/dynamic/json?color=green&label=Downloads&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
-    <img src="https://img.shields.io/badge/dynamic/json?color=green&label=Rating&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
-    <img src="https://img.shields.io/badge/dynamic/json?color=green&label=Reviews&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=green&icon=garmin&label=Downloads&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=Rating&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Reviews&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
 </p>
 
 ## Make Your Own
