@@ -10,7 +10,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 cache = {}  # appid_domain info
-# ciq.newrathon.com/query?appid=b4337e65-9333-49e4-9e7b-27e4f68922a1&domain=all&mode=downloads
+# ciq.li2niu.com/stats?appid=b4337e65-9333-49e4-9e7b-27e4f68922a1&domain=all
 
 
 @app.route('/')
@@ -19,7 +19,6 @@ def home(path):
     # b4337e65-9333-49e4-9e7b-27e4f68922a1 in https://apps.garmin.cn/zh-CN/apps/b4337e65-9333-49e4-9e7b-27e4f68922a1
     id = request.args.get('appid')
     domain = request.args.get('domain')  # all(default)/cn/com
-    mode = request.args.get('mode')  # downloads(default)/reviews/ratings
 
     if id is None or len(id) <= 30:  # need to confirm the length
         return ''
@@ -27,11 +26,6 @@ def home(path):
         domain = 'all'
     if domain not in ['cn', 'com', 'all']:
         return 'D_E', 200
-
-    if mode is None:
-        mode = 'downloads'
-    if mode not in ['downloads', 'reviews', 'ratings']:
-        return 'M_E', 200
 
     query_key = '{}_{}'.format(id, domain)
     today_date = datetime.now().strftime("%Y_%m_%d")
@@ -48,7 +42,7 @@ def home(path):
                 'downloads': downloads
             }
             cache[query_key] = cache_info
-        return cache_info[mode], 200
+        return cache_info, 200
     else:
         app_name, downloads, reviews_cnt, average_rating = ciq.get_app_download_info(
             id, domain)
@@ -59,4 +53,4 @@ def home(path):
             'downloads': downloads
         }
         cache[query_key] = cache_info
-        return cache_info[mode], 200
+        return cache_info, 200
