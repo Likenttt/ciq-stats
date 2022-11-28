@@ -24,9 +24,9 @@ curl http://localhost:3000/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&
 
 {
     "date": "2022_11_28",
-    "downloads": "61",
-    "ratings": "5.0",
-    "reviews": "1"
+    "downloads": "105095",
+    "ratings": "4.5",
+    "reviews": "306"
 }
 ```
 
@@ -35,6 +35,15 @@ curl http://localhost:3000/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&
 ```
 curl https://ciqstats.li2niu.com/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&domain=all
 
+```
+
+```
+{
+    "date": "2022_11_28",
+    "downloads": "105095",
+    "ratings": "4.5",
+    "reviews": "306"
+}
 ```
 
 ### Params
