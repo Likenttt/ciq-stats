@@ -191,4 +191,4 @@ curl https://ciqstats.li2niu.com/api/total?developerid=876cfd5e-4e42-48ca-8869-c
 
 ## Note
 
-[ciqreviews](https://github.com/Likenttt/connect-iq-spam-reviews)
+[ciqreviews](https://github.com/Likenttt/ciqreviews)
