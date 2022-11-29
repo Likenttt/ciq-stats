@@ -15,16 +15,18 @@ This is a Serverless Function for Garmin Connect IQ app downloads,reviews,rating
 
 <p align="center">
     <a href="https://apps.garmin.com/en-US/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177">My First Garmin App JumpJump</a> <br>
-    <img src="https://img.shields.io/badge/dynamic/json?color=green&logo=garmin&label=Downloads&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
-    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Reviews&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
-    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=Rating&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=green&label=Downloads&style=for-the-badge&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Reviews&query=reviews&style=for-the-badge&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=Rating&style=for-the-badge&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall"/>
 </p>
 
 ### Markdown Syntax
 
 Garmin Logo is too small. You can remove it. Waiting for a Connect IQ logo.
 
-Also use JumpJump as an example.
+#### Different Metrics For Specific Apps
+
+##### JumpJmp
 
 ![JJ Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
 ![JJ Downloads COM](https://img.shields.io/badge/dynamic/json?color=green&label=Row%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
@@ -32,6 +34,37 @@ Also use JumpJump as an example.
 ![JJ Rating COM](https://img.shields.io/badge/dynamic/json?color=blue&label=Row%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
 ![JJ Rating CN](https://img.shields.io/badge/dynamic/json?color=blue&label=China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
 ![JJ Reviews](https://img.shields.io/badge/dynamic/json?color=orange&label=Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
+
+##### Including the names in Labels is Fine
+
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20ROW%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcom)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20China%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcn)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20ROW%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcom)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcn)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=orange&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)
+
+![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20ROW%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcom)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20China%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcn)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%20ROW%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcom)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%20China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcn)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=orange&label=Obvious%20Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)
+
+#### App Matrix
+
+[![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)](https://apps.garmin.com/en-US/apps/c430403e-6b89-4de5-af57-621d24c45b8c)
+[![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)](https://apps.garmin.com/en-US/apps/9c9c31b1-d080-4c47-955a-496f9435ac32)
+[![青玉案(Obvious Plus中文版)](https://img.shields.io/badge/dynamic/json?color=green&label=%E9%9D%92%E7%8E%89%E6%A1%88%28Obvious%20Plus%E4%B8%AD%E6%96%87%E7%89%88%29&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Da2b783ae-a3cf-44ca-80ec-6a936143281b%26domain%3Dall)](https://apps.garmin.com/en-US/apps/a2b783ae-a3cf-44ca-80ec-6a936143281b)
+[![中华黄历](https://img.shields.io/badge/dynamic/json?color=green&label=%E4%B8%AD%E5%8D%8E%E9%BB%84%E5%8E%86&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Da707f466-7753-4882-be4a-e13eb75d19f9%26domain%3Dall)](https://apps.garmin.com/en-US/apps/a707f466-7753-4882-be4a-e13eb75d19f9)
+[![Obvious Plus](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20Plus&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D38d79bbf-1cb9-4e79-9294-93c74ea16332%26domain%3Dall)](https://apps.garmin.com/en-US/apps/38d79bbf-1cb9-4e79-9294-93c74ea16332)
+[![Answers](https://img.shields.io/badge/dynamic/json?color=green&label=Answers&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Db4337e65-9333-49e4-9e7b-27e4f68922a1%26domain%3Dall)](https://apps.garmin.com/en-US/apps/b4337e65-9333-49e4-9e7b-27e4f68922a1)
+
+[![JumpJump(Jump Rope app)](https://img.shields.io/badge/dynamic/json?color=green&label=JumpJump%28Jump%20Rope%20app%29&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)](https://apps.garmin.com/en-US/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177)
+[![JumpJump Pro（Jump Rope）](https://img.shields.io/badge/dynamic/json?color=green&label=JumpJump%20Pro%EF%BC%88Jump%20Rope%EF%BC%89&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D80db03b5-86ba-450c-b45a-d666ca83b6dc%26domain%3Dall)](https://apps.garmin.com/en-US/apps/80db03b5-86ba-450c-b45a-d666ca83b6dc)
+[![QRCode Wallet | Static QR Code](https://img.shields.io/badge/dynamic/json?color=green&label=QRCode%20Wallet%20%7C%20Static%20QR%20Code&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D77e5e489-2519-4e3f-8e30-6f2bf1f526be%26domain%3Dall)](https://apps.garmin.com/en-US/apps/77e5e489-2519-4e3f-8e30-6f2bf1f526be)
+[![二维静码·专业版(需搭配同名微信小程序使用)](https://img.shields.io/badge/dynamic/json?color=green&label=%E4%BA%8C%E7%BB%B4%E9%9D%99%E7%A0%81%C2%B7%E4%B8%93%E4%B8%9A%E7%89%88%28%E9%9C%80%E6%90%AD%E9%85%8D%E5%90%8C%E5%90%8D%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%29&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D7a8d8132-72d1-47db-aceb-612a92d0692e%26domain%3Dall)](https://apps.garmin.com/en-US/apps/7a8d8132-72d1-47db-aceb-612a92d0692e)
+[![Manjianghong](https://img.shields.io/badge/dynamic/json?color=green&label=Manjianghong&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D7a9ea440-3e9c-4f0a-9e9d-5822f5091020%26domain%3Dall)](https://apps.garmin.com/en-US/apps/7a9ea440-3e9c-4f0a-9e9d-5822f5091020)
 
 ## Make Your Own
 
