@@ -9,15 +9,15 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-cache = {}  # appid_domain info
-# ciqstats.li2niu.com/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&domain=all
+cache = {}  # developerid_domain info
+# ciqstats.li2niu.com/api/total?developerid=876cfd5e-4e42-48ca-8869-cd7c59235573&domain=all
 
 
 @app.route('/')
 @app.route('/<path:path>')
 def home(path):
-    # dc6ceca8-6ec6-49f2-b711-4ebc0d347177 in https://apps.garmin.cn/zh-CN/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177
-    id = request.args.get('appid')
+    # 876cfd5e-4e42-48ca-8869-cd7c59235573 in https://apps.garmin.com/en-US/developer/876cfd5e-4e42-48ca-8869-cd7c59235573/apps
+    id = request.args.get('developerid')
     domain = request.args.get('domain')  # all(default)/cn/com
 
     if id is None or len(id) <= 30:  # need to confirm the length
@@ -33,24 +33,22 @@ def home(path):
         cache_info = cache[query_key]
         date = cache_info['date']
         if today_date != date:
-            app_name, downloads, reviews_cnt, average_rating = ciq.get_app_download_info(
+            developer_name, total_download, app_dict = ciq.get_user_app_download_info(
                 id, domain)
             cache_info = {
                 'date': today_date,
-                'reviews': reviews_cnt,
-                'ratings': average_rating,
-                'downloads': downloads
+                'developer_name': developer_name,
+                'downloads': total_download
             }
             cache[query_key] = cache_info
         return cache_info, 200
     else:
-        app_name, downloads, reviews_cnt, average_rating = ciq.get_app_download_info(
+        developer_name, total_download, app_dict = ciq.get_user_app_download_info(
             id, domain)
         cache_info = {
             'date': today_date,
-            'reviews': reviews_cnt,
-            'ratings': average_rating,
-            'downloads': downloads
+            'developer_name': developer_name,
+            'downloads': total_download
         }
         cache[query_key] = cache_info
         return cache_info, 200

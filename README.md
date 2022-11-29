@@ -24,32 +24,37 @@ This is a Serverless Function for Garmin Connect IQ app downloads,reviews,rating
 
 Garmin Logo is too small. You can remove it. Waiting for a Connect IQ logo.
 
-#### Different Metrics For Specific Apps
+#### Different Metrics
+
+##### Total
+
+![Developer Name](https://img.shields.io/badge/dynamic/json?color=blue&label=Developer&style=flat-square&query=developer_name&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Ftotal%3Fappid%3D876cfd5e-4e42-48ca-8869-cd7c59235573%26domain%3Dall)
+![Total Downloads](https://img.shields.io/badge/dynamic/json?color=pink&label=Total%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Ftotal%3Fappid%3D876cfd5e-4e42-48ca-8869-cd7c59235573%26domain%3Dall)
 
 ##### JumpJmp
 
-![JJ Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
-![JJ Downloads COM](https://img.shields.io/badge/dynamic/json?color=green&label=Row%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
-![JJ Downloads CN](https://img.shields.io/badge/dynamic/json?color=green&label=China%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
-![JJ Rating COM](https://img.shields.io/badge/dynamic/json?color=blue&label=Row%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
-![JJ Rating CN](https://img.shields.io/badge/dynamic/json?color=blue&label=China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
-![JJ Reviews](https://img.shields.io/badge/dynamic/json?color=orange&label=Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
+![JJ Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Global%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
+![JJ Downloads COM](https://img.shields.io/badge/dynamic/json?color=green&label=Row%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
+![JJ Downloads CN](https://img.shields.io/badge/dynamic/json?color=green&label=China%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
+![JJ Rating COM](https://img.shields.io/badge/dynamic/json?color=blue&label=Row%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
+![JJ Rating CN](https://img.shields.io/badge/dynamic/json?color=blue&label=China%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
+![JJ Reviews](https://img.shields.io/badge/dynamic/json?color=orange&label=Reviews&style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
 
 ##### Including the names in Labels is Fine
 
-![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)
-![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20ROW%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcom)
-![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20China%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcn)
-![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20ROW%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcom)
-![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcn)
-![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=orange&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20Global%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20ROW%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcom)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20China%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcn)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20ROW%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcom)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20China%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dcn)
+![Obvious中文版](https://img.shields.io/badge/dynamic/json?color=orange&label=Obvious%E4%B8%AD%E6%96%87%E7%89%88%20Reviews&style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Dc430403e-6b89-4de5-af57-621d24c45b8c%26domain%3Dall)
 
-![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20Global%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)
-![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20ROW%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcom)
-![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20China%20Downloads&?style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcn)
-![Obvious](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%20ROW%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcom)
-![Obvious](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%20China%20Rating&?style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcn)
-![Obvious](https://img.shields.io/badge/dynamic/json?color=orange&label=Obvious%20Reviews&?style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20Global%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20ROW%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcom)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=green&label=Obvious%20China%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcn)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%20ROW%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcom)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=blue&label=Obvious%20China%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dcn)
+![Obvious](https://img.shields.io/badge/dynamic/json?color=orange&label=Obvious%20Reviews&style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D9c9c31b1-d080-4c47-955a-496f9435ac32%26domain%3Dall)
 
 #### App Matrix
 
@@ -70,7 +75,51 @@ Garmin Logo is too small. You can remove it. Waiting for a Connect IQ logo.
 
 Make your badges here [Shields.io](https://shields.io/#your-badge)
 
+### Batch
+
+```
+pip install ciqreviews
+```
+
+```
+
+# -*- coding: UTF-8 -*-
+import argparse
+from connectiq import get_user_app_download_info
+import os
+import urllib.parse
+
+# Generate multi-badges
+developer_name, total_download, app_dict = get_user_app_download_info(
+    '876cfd5e-4e42-48ca-8869-cd7c59235573', 'all')
+
+print('{}: total downloads:{} downloads rank;{}'.format(
+    developer_name, total_download, app_dict))
+
+template = '''
+![{}](https://img.shields.io/badge/dynamic/json?color=green&label={}%20Global%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D{}%26domain%3Dall)
+![{}](https://img.shields.io/badge/dynamic/json?color=green&label={}%20ROW%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D{}%26domain%3Dcom)
+![{}](https://img.shields.io/badge/dynamic/json?color=green&label={}%20China%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D{}%26domain%3Dcn)
+![{}](https://img.shields.io/badge/dynamic/json?color=blue&label={}%20ROW%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D{}%26domain%3Dcom)
+![{}](https://img.shields.io/badge/dynamic/json?color=blue&label={}%20China%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D{}%26domain%3Dcn)
+![{}](https://img.shields.io/badge/dynamic/json?color=orange&label={}%20Reviews&style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D{}%26domain%3Dall)
+'''
+for appid, app in app_dict.items():
+    if app['total_downloads'] <= 1000:
+        continue
+    urlencoded_app_name = urllib.parse.quote(
+        app['app_name'])
+    print(template.format(app['app_name'], urlencoded_app_name, appid, app['app_name'], urlencoded_app_name, appid, app['app_name'], urlencoded_app_name,
+          appid, app['app_name'], urlencoded_app_name, appid, app['app_name'], urlencoded_app_name, appid, app['app_name'], urlencoded_app_name, appid))
+
+```
+
 ## Intro
+
+Only 2 interfaces now.
+
+- `/api/stats` is used to calculate some stuff about one single `app` with appid in the end of its link
+- `/api/total` is used to calculate some stuff about one single `developer` with developerid in the end of his or her homepage link
 
 ### Local
 
@@ -78,10 +127,20 @@ Make your badges here [Shields.io](https://shields.io/#your-badge)
 curl http://localhost:3000/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&domain=all
 
 {
-    "date": "2022_11_28",
-    "downloads": "105095",
+    "date": "2022_11_29",
+    "downloads": 105224,
     "ratings": "4.5",
-    "reviews": "306"
+    "reviews": 307
+}
+```
+
+```
+curl http://localhost:3000/api/total?developerid=876cfd5e-4e42-48ca-8869-cd7c59235573&domain=cn
+
+{
+    "date": "2022_11_29",
+    "developer_name": "Newrathon",
+    "downloads": 3517
 }
 ```
 
@@ -89,33 +148,46 @@ curl http://localhost:3000/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&
 
 ```
 curl https://ciqstats.li2niu.com/api/stats?appid=dc6ceca8-6ec6-49f2-b711-4ebc0d347177&domain=all
+curl https://ciqstats.li2niu.com/api/total?developerid=876cfd5e-4e42-48ca-8869-cd7c59235573&domain=all
 
-```
-
-```
-{
-    "date": "2022_11_28",
-    "downloads": "105095",
-    "ratings": "4.5",
-    "reviews": "306"
-}
 ```
 
 ### Params
+
+#### /api/stats
+
+##### Params
 
 | param  | must | type | default | values                                                                                                          | note                                                                           |
 | ------ | ---- | ---- | ------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | appid  | Y    | str  |         | dc6ceca8-6ec6-49f2-b711-4ebc0d347177 in https://apps.garmin.com/en-US/apps/dc6ceca8-6ec6-49f2-b711-4ebc0d347177 | The last part of the app url                                                   |
 | domain | N    | str  | all     | all,cn,com                                                                                                      | The top doamin of app, Rest of the world(com), China mainland(cn), All(com+cn) |
 
-### Result
+##### Results
 
-| param     | type | note                                                                                                               |
-| --------- | ---- | ------------------------------------------------------------------------------------------------------------------ |
-| date      | str  | The date of the info queried e.g. 2022_11_28                                                                       |
-| downloads | str  | The download number of the app                                                                                     |
-| ratings   | str  | The rating of the app. If the domain is specified to 'all', the result will be Weighted Average of 'com' and 'cn'. |
-| reviews   | str  | The reviews amount of the app                                                                                      |
+| param     | type   | note                                                                                                               |
+| --------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
+| date      | str    | The date of the info queried e.g. 2022_11_28                                                                       |
+| downloads | number | The download number of the app                                                                                     |
+| ratings   | str    | The rating of the app. If the domain is specified to 'all', the result will be Weighted Average of 'com' and 'cn'. |
+| reviews   | number | The reviews amount of the app                                                                                      |
+
+#### /api/total
+
+##### Params
+
+| param       | must | type | default | values                                                                                                                    | note                                                                           |
+| ----------- | ---- | ---- | ------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| developerid | Y    | str  |         | 876cfd5e-4e42-48ca-8869-cd7c59235573 in https://apps.garmin.com/en-US/developer/876cfd5e-4e42-48ca-8869-cd7c59235573/apps | The part between `developer/` and `/app` in the developer homepage url         |
+| domain      | N    | str  | all     | all,cn,com                                                                                                                | The top doamin of app, Rest of the world(com), China mainland(cn), All(com+cn) |
+
+##### Results
+
+| param          | type   | note                                         |
+| -------------- | ------ | -------------------------------------------- |
+| date           | str    | The date of the info queried e.g. 2022_11_28 |
+| downloads      | number | The download number of the app               |
+| developer_name | str    | Developer name                               |
 
 ## Note
 
