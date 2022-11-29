@@ -34,9 +34,9 @@ Garmin Logo is too small. You can remove it. Waiting for a Connect IQ logo.
 ##### JumpJmp
 
 ![JJ Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Global%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
-![JJ Downloads COM](https://img.shields.io/badge/dynamic/json?color=green&label=Row%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
+![JJ Downloads COM](https://img.shields.io/badge/dynamic/json?color=green&label=ROW%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
 ![JJ Downloads CN](https://img.shields.io/badge/dynamic/json?color=green&label=China%20Downloads&style=flat-square&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
-![JJ Rating COM](https://img.shields.io/badge/dynamic/json?color=blue&label=Row%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
+![JJ Rating COM](https://img.shields.io/badge/dynamic/json?color=blue&label=ROW%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcom)
 ![JJ Rating CN](https://img.shields.io/badge/dynamic/json?color=blue&label=China%20Rating&style=flat-square&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dcn)
 ![JJ Reviews](https://img.shields.io/badge/dynamic/json?color=orange&label=Reviews&style=flat-square&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3Ddc6ceca8-6ec6-49f2-b711-4ebc0d347177%26domain%3Dall)
 
@@ -85,7 +85,7 @@ pip install ciqreviews
 
 # -*- coding: UTF-8 -*-
 import argparse
-from connectiq import get_user_app_download_info
+from ciqreviews import get_user_app_download_info
 import os
 import urllib.parse
 
